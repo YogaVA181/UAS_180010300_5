@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".InputBukuActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="@string/data_buku"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="@string/nama_buku"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_pengarang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="@string/pengarang_buku"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_penerbit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="@string/penerbit_buku"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_tahun"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="@string/tahun_terbit"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/deskripsi"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/simpan"
+        android:textSize="18sp" />
+</LinearLayout>

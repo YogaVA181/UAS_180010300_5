@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UAS 180010300 5</string>
+    <string name="nama_buku">Nama Buku</string>
+    <string name="pengarang_buku">Pengarang Buku</string>
+    <string name="penerbit_buku">Penerbit Buku</string>
+    <string name="tahun_terbit">Tahun Terbit</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="titik_dua">:</string>
+    <string name="jenis_buku">Jenis Buku</string>
+    <string name="sejarah">Buku Sejarah</string>
+    <string name="bahasa">Buku Bahasa</string>
+    <string name="ilustrasi"></string>
+    <string name="data_buku">Data Buku</string>
+    <string name="simpan">Simpan</string>
+    <string name="delete">DELETE</string>
+    <string name="cari">Cari Buku</string>
+</resources>
